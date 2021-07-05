@@ -1,0 +1,24 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/edit/edit",
+          "pathName": "pages/edit/edit",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,35 @@
+/* components/remove/remove.wxss */
+.area{
+  position: relative;
+  width: 690rpx;
+  height: 100rpx;
+  margin: 20rpx;
+  border-bottom: 1px solid #ccc;
+}
+.view{
+  position: absolute;
+  left: 130rpx;
+  width:560rpx;
+  height: 100%;
+  background-color: #fff;
+  line-height: 100rpx;
+  z-index: 99;
+}
+.delete{
+  position: absolute;
+  width: 100rpx;
+  height: 100rpx;
+  right: 0;
+  text-align: center;
+  line-height: 100rpx;
+  color: #fff;
+  background-color: #ff0000;
+  z-index: 9;
+}
+image{
+  position: absolute;
+  left: 0;
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 50%;
+}

@@ -1,0 +1,15 @@
+/* pages/edit/edit.wxss */
+.edit-info{
+  height: 90rpx;
+  margin:   20rpx;
+  padding: 20rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20rpx;
+  background-color: rgb(231, 231, 231);
+}
+.edit-tips{
+  font-size: 20rpx;
+  color: rgb(250, 7, 7);
+}

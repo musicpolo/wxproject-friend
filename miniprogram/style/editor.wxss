@@ -1,0 +1,10 @@
+/* miniprogram/pages/signature/signature.wxss */
+button{
+  background-color: rgba(204, 204, 204, 0.678);
+}
+input{
+  margin: 20rpx;
+  padding: 20rpx;
+  border: 1px solid #ccc;
+  border-radius: 20rpx;
+}

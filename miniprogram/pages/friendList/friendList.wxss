@@ -1,0 +1,23 @@
+/* miniprogram/pages/friendList/friendList.wxss */
+.title{
+  margin: 30rpx;
+}
+.friend-item{
+  display: flex;
+  margin:  20rpx;
+  width:700rpx;
+  height: 100rpx;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  line-height: 100rpx;
+}
+.name{
+  margin-left: 30rpx;
+  height: 100rpx;
+
+}
+image{
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 50%;
+}

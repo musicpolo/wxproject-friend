@@ -1,0 +1,5 @@
+/* miniprogram/pages/name/name.wxss */
+@import '../../style/editor.wxss';
+button{
+  margin-bottom: 20rpx;
+}

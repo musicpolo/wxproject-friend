@@ -1,0 +1,2 @@
+/* miniprogram/pages/wx/wx.wxss */
+@import '../../style/editor.wxss'

@@ -1,0 +1,30 @@
+/* miniprogram/pages/user/user.wxss */
+page{
+  height: 100%;
+}
+.user{
+  height: 100%;
+  background-image: linear-gradient(#ff3300,#fff);
+}
+.user-photo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300rpx;
+}
+.user-img{
+  border-radius: 50%;
+  width: 200rpx;
+  height: 200rpx;
+}
+.user-info{
+  height: 90rpx;
+  margin:   20rpx;
+  padding: 20rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20rpx;
+  background-color: #fff;
+}
+

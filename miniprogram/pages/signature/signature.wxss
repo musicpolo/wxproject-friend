@@ -1,0 +1,2 @@
+/* miniprogram/pages/signature/signature.wxss */
+@import '../../style/editor.wxss'

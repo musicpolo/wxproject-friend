@@ -1,0 +1,2 @@
+/* miniprogram/pages/phone/phone.wxss */
+@import '../../style/editor.wxss'

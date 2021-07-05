@@ -1,0 +1,12 @@
+/* miniprogram/pages/location/location.wxss */
+@import '../../style/editor.wxss';
+.location{
+  display: flex;
+  justify-content: space-around;
+  height: 100rpx;
+  margin-bottom: 20rpx;
+  line-height: 100rpx;
+  font-weight: normal;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script src="/javascripts/axios.min.js"></script>
+  </head>
+  <body>
+    <h1>friend-cms管理系统</h1>
+    <label for="">
+      上传图片：<input type="file" id="upload">
+    </label>
+  </body>
+  <script>
+    const uploadBtn=document.getElementById('upload')
+    uploadBtn.onchange=function(e){
+      const files=e.target.files[0]
+      let param=new FormData()
+      param.append('file',files)
+      const config={
+        headers:{
+          'Content-type':'multipart/form-data'
+        }
+      }
+      axios.post('/uploadBannerImg',param,config).then(res=>{
+        
+      })
+    }
+  </script>
+</html>

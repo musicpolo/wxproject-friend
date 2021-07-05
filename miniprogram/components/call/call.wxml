@@ -1,0 +1,2 @@
+<!--components/call/call.wxml-->
+<view class="iconfont icon-dadianhua" bindtap="handleCall"></view>

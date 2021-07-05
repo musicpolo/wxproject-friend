@@ -1,0 +1,5 @@
+<!--miniprogram/pages/photo/photo.wxml-->
+<button  bindtap="getUserProfile">使用微信头像</button>
+<button bindtap="handleClick">设置头像</button>
+
+<image bindtap="handleLoad" src="{{avatarUrl}}"></image>

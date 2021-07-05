@@ -1,0 +1,3 @@
+<!--miniprogram/pages/signature/signature.wxml-->
+<input type="text" value="{{signature}}" bindinput="handleValue"/>
+<button bindtap="handleClick">设置个性签名</button>

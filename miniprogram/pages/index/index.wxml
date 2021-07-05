@@ -1,0 +1,31 @@
+<!--miniprogram/pages/index/index.wxml-->
+<wxs src="../../util/word.wxs" module="m1"/>
+<wxs src="../../util/unit.wxs" module="m2"/>
+<view class="index">
+<search/>
+<!-- 幻灯片 -->
+  <swiper class="swiper" indicator-dots="{{true}}"autoplay="{{true}}"
+  circular="{{true}}"
+  >
+    <block wx:for="{{imgUrls}}" wx:key="index">
+          <swiper-item>
+            <image class="swiper-img" src='{{item.fileId}}' alt=""/>
+          </swiper-item>
+        </block>
+  </swiper>
+  <!-- 标签 -->
+  <view class="index-tab">
+    <view class="{{current==='link'?'tab-active':''}}" data-tag="link" bindtap="handleClick">推荐</view>
+    <view class="{{current==='time'?'tab-active':''}}" data-tag="time" bindtap="handleClick">最新</view>
+  </view>
+  <!-- 用户列表 -->
+  <view class="index-list">
+    <view class="index-list-item" wx:for="{{listData}}" wx:key="index">
+      <image mode="aspectFill" class="index-list-img" src="{{item.avatarUrl}}" data-id="{{item._id}}" bindtap="handleDetail"></image>
+      <view class="item-text">
+        <text>{{m1.wordSplit(item.nickName)}}</text>
+        <text class="iconfont icon-dianzan" bindtap="handleLink" data-id="{{item._id}}">{{m2.unit(item.link) }}</text>
+      </view>
+    </view>  
+  </view>
+</view>

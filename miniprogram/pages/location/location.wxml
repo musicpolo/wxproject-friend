@@ -1,0 +1,6 @@
+<!--miniprogram/pages/location/location.wxml-->
+<view class="location">
+<text>打开共享位置</text>
+<switch checked="{{shareLocation}}" bindchange="switchChange"/>
+</view>
+<button bindtap="handleClick">设置共享位置</button>

@@ -1,0 +1,68 @@
+/* components/search/search.wxss */
+.search{
+  
+  margin: 20rpx; 
+  height: 90rpx;
+}
+.search-focus{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 20rpx;
+  z-index: 9;
+  background-color: rgb(219, 219, 213);
+}
+.search-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search-input{
+  display: flex;
+  align-items: center;
+  height: 60rpx;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 10rpx;
+  flex: 1;
+  z-index: 9;
+}
+.search-input input{flex: 1; }
+.icon-sousuo{
+  padding: 0 10rpx;
+}
+.search-cancel{
+  margin: 0 20rpx;
+}
+.search-history{
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  margin: 50rpx 10rpx;
+}
+.search-list{
+  margin-top: 100rpx;
+  margin-bottom: 100rpx;
+}
+.search-list text{
+  margin: 0 20rpx;
+}
+.search-item{
+  display: flex;
+  margin:  20rpx;
+  height: 100rpx;
+  border-bottom: 1px solid #ccc;
+  line-height: 100rpx;
+}
+.name{
+  margin-left: 30rpx;
+  height: 100rpx;
+
+}
+.search-item image{
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 50%;
+}
